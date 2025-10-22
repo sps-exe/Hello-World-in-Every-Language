@@ -1,0 +1,21 @@
+name: Verify Hello World Programs
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up languages
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y python3 gcc g++ openjdk-17-jdk nodejs
+
+      - name: Run verification script
+        run: python3 scripts/verify_all.py
