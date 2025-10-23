@@ -1,6 +1,7 @@
 # JavaScript
 
 **Year Created:**  1995
+
 **Creator:**Brendan Eich (Netscape)
 
 ---
