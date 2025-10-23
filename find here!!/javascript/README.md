@@ -33,7 +33,7 @@ Hello, World!
 Place `hello.js` and `hello.html` in the same folder (e.g., `javascript/`).
 
 ## 1 . `hello.html` — copy this file
-```html
+```
 <!doctype html>
 <html>
   <head>
@@ -47,7 +47,7 @@ Place `hello.js` and `hello.html` in the same folder (e.g., `javascript/`).
     <script src="hello.js"></script>
   </body>
 </html>
-
+```
 
 # 🖨️ Output
 ```
