@@ -5,7 +5,7 @@
 
 ---
 
-## 💻 Program File: `hello.go`
+## 💻 Program File: `hello.pl`
 
 ```
 use strict;
