@@ -6,10 +6,11 @@
 
 ## 💻 Program File: HelloWorld.sh
 
+```
 #!/bin/bash
 
 echo "Hello World!"
-
+```
 
 # ⚙️ Make Executable & Run
 
